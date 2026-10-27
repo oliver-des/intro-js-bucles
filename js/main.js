@@ -15,3 +15,13 @@ for (let i = 1; i <= 50; i++) {
       console.log(`El número ${i} es par`)
    }
 }
+
+
+// Ejercicio 3 
+let resp = parseInt(prompt("Escribe un numero")) //variable con prompt, parseInt para datarlo como numero
+
+for (let i = 0; i <= 10; i++) // bucle for porque es un numero determinado de veces que se va a repetir
+{
+   let resultado = resp * i //creamos variable (resultado) que almacenará la multiplicación (si la metemos fuera del bucle = undefined)
+   console.log(`${resp} x ${i} = ${resultado}`) //imprimimos en la consola, al estar dentro del bucle se imprimen todas las multiplicaciones
+}
