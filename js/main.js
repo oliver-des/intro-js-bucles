@@ -31,3 +31,7 @@ for (let i = 0; i <= 10; i++) // bucle for porque es un numero determinado de ve
 for(i = 1; i<=10; i--) {
    console.log(i)
 }*/
+
+
+// Ejercicio 5
+let numUsuario = parseInt(prompt("Escribe un número"))
