@@ -25,3 +25,9 @@ for (let i = 0; i <= 10; i++) // bucle for porque es un numero determinado de ve
    let resultado = resp * i //creamos variable (resultado) que almacenará la multiplicación (si la metemos fuera del bucle = undefined)
    console.log(`${resp} x ${i} = ${resultado}`) //imprimimos en la consola, al estar dentro del bucle se imprimen todas las multiplicaciones
 }
+
+
+// Ejercicio 4
+for(i = 10; i<=10; i--) {
+   console.log(i)
+}
