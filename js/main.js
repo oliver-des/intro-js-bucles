@@ -27,7 +27,7 @@ for (let i = 0; i <= 10; i++) // bucle for porque es un numero determinado de ve
 }
 
 
-// Ejercicio 4
-for(i = 10; i<=10; i--) {
+/*Ejercicio 4
+for(i = 1; i<=10; i--) {
    console.log(i)
-}
+}*/
