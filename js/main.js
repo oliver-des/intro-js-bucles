@@ -1,4 +1,4 @@
-// Ejercicio 1
+/* Ejercicio 1
 let suma = 0
 
 
@@ -14,24 +14,45 @@ for (let i = 1; i <= 50; i++) {
    {
       console.log(`El número ${i} es par`)
    }
-}
+}*/
+
 
 
 // Ejercicio 3 
-let resp = parseInt(prompt("Escribe un numero")) //variable con prompt, parseInt para datarlo como numero
+function validar() {
 
-for (let i = 0; i <= 10; i++) // bucle for porque es un numero determinado de veces que se va a repetir
-{
-   let resultado = resp * i //creamos variable (resultado) que almacenará la multiplicación (si la metemos fuera del bucle = undefined)
-   console.log(`${resp} x ${i} = ${resultado}`) //imprimimos en la consola, al estar dentro del bucle se imprimen todas las multiplicaciones
+   let resp;
+   do {
+       resp = parseInt(prompt("Escribe un numero"))
+
+   } while (isNaN(resp))
+return resp
 }
+
+function tablaMultiplicar() {
+
+   //variable con prompt, parseInt para datarlo como numero
+const resp= validar()
+   
+
+   // bucle for porque es un numero determinado de veces que se va a repetir
+   for (let i = 0; i <= 10; i++) {
+      let resultado = resp * i //creamos variable (resultado) que almacenará la multiplicación (si la metemos fuera del bucle = undefined)
+      console.log(`${resp} x ${i} = ${resultado}`)
+   } //imprimimos en la consola, al estar dentro del bucle se imprimen todas las multiplicaciones
+}
+tablaMultiplicar()
+
+
+
 
 
 /*Ejercicio 4
-for(i = 1; i<=10; i--) {
-   console.log(i)
+for(let i = 10; i>=1; i--) {
+   console.log(i);
+   document.write(`${i} <br>`)
 }*/
 
 
 // Ejercicio 5
-let numUsuario = parseInt(prompt("Escribe un número"))
+/*let numUsuario = parseInt(prompt("Escribe un número"))*/
